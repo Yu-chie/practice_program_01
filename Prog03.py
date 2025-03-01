@@ -5,8 +5,5 @@ print("Please Enter a number")
 num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 
-#Get the sum
-sum = num1 + num2
-
-#Print the sum
-print("The sum is: ", sum)          #Even with out words
+sum = num1 + num2                   #Get the sum
+print("The sum is: ", sum)          #Print the sum. Even with out words

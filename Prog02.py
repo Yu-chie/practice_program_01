@@ -5,8 +5,7 @@ print("Please Enter a number")
 num1 = int(input("Enter first number: "))           #Even with out the int
 num2 = int(input("Enter second number: "))          #Even with out the int
 
-#Determine if the numbers are equal
-if num1 == num2:
+if num1 == num2:                #Determine if the numbers are equal
     print("Equal")                  #Print "Equal" when the numbers are the same.
-else:
-    print("Not Equal")              #Even with out this
+else:                               #Even with out this
+    print("Not Equal")

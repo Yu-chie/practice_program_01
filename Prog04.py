@@ -5,8 +5,5 @@ print("Please Enter a number")
 num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 
-#Get the product
-product = num1 * num2
-
-#Print the product
-print("The product is: ", product)          #Even with out words
+product = num1 * num2                       #Get the product
+print("The product is: ", product)          #Print the product. Even with out words

@@ -5,8 +5,5 @@ print("Please Enter a number")
 num1 = int(input("Enter base number: "))
 num2 = int(input("Enter exponent: "))
 
-#Raise the First number with the second
-result = num1 ** num2
-
-#Print the result
-print("The result is: ", result)        #Even with out words
+result = num1 ** num2                   #Raise the First number with the second
+print("The result is: ", result)        #Print the result. Even with out words

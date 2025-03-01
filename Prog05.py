@@ -5,8 +5,5 @@ print("Please Enter a number")
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 
-#Get the quotient
-quotient = num1 / num2
-
-#Print the quotient with decimal points
-print("The quotient is: ", quotient)    #Even with out words
+quotient = num1 / num2                  #Get the quotient
+print("The quotient is: ", quotient)    #Print the quotient with decimal points. Even with out words
