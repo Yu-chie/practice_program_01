@@ -2,8 +2,8 @@
 
 #Ask the user for 2 input numbers
 print("Please Enter a number")
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
 
 quotient = num1 / num2                  #Get the quotient
 print("The quotient is: ", quotient)    #Print the quotient with decimal points. Even with out words
